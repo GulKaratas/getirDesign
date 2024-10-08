@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		553CC8B92CB56F1600612E15 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 553CC8B82CB56F1600612E15 /* RxSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		553CC88F2CB563DE00612E15 /* getirDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getirDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553CC8B92CB56F1600612E15 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = getirDesign;
 			packageProductDependencies = (
+				553CC8B82CB56F1600612E15 /* RxSwift */,
 			);
 			productName = getirDesign;
 			productReference = 553CC88F2CB563DE00612E15 /* getirDesign.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 553CC8862CB563DE00612E15;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				553CC8B72CB56D5F00612E15 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 553CC8902CB563DE00612E15 /* Products */;
 			projectDirPath = "";
@@ -333,6 +342,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		553CC8B72CB56D5F00612E15 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		553CC8B82CB56F1600612E15 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 553CC8B72CB56D5F00612E15 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 553CC8872CB563DE00612E15 /* Project object */;
 }
